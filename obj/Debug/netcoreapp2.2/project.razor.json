@@ -1875,6 +1875,11 @@
       "FilePath": "/Users/jelly/czprojects/github/CSharp/Views/Test/Contact.cshtml",
       "TargetPath": "Views\\Test\\Contact.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jelly/czprojects/github/CSharp/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

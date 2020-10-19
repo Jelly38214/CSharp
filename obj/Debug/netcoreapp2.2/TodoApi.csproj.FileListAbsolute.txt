@@ -35,3 +35,4 @@
 /Users/jelly/czprojects/github/CSharp/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cs
 /Users/jelly/czprojects/github/CSharp/obj/Debug/netcoreapp2.2/TodoApi.Views.pdb
 /Users/jelly/czprojects/github/CSharp/obj/Debug/netcoreapp2.2/TodoApi.csproj.CopyComplete
+/Users/jelly/czprojects/github/CSharp/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs

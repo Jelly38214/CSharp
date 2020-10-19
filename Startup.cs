@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Http;
 using TodoApi.Models;
+using LanzhouBeefNoodles.Models;
 
 namespace TodoApi
 {
@@ -32,6 +33,8 @@ namespace TodoApi
         {
             services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<INoodleRepository, MockNoodleRepository>();
+            services.AddTransient<IFeedbackRepository, MockFeedbackRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
